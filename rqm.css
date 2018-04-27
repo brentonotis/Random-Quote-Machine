@@ -1,0 +1,23 @@
+.quote-text {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.btn-primary {
+  background: transparent;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 25px;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover {
+  color: white;
+  background: blue;
+  border: 1px solid white;
+}
