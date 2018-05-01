@@ -4,13 +4,18 @@
 
 <main class="quoteApp">
   <div class="container text-center">
-      <div class="quote-text">Quotes will go here
+    <div class="container" id="mainbox" style="padding-left:0px;padding-right:0px;height:600px; auto">
+      <div class="container quote_box rows">
+        <div class="rows">
+          <div id="quoteText" class="text-center quoteText"><h2>
+          One good thing about music, when it hits, you feel no pain.</h2>
+          </div>
+          <div id="author" class="text-center"><h4>
+          - Bob Marley</h4></div>
+          </div>
+    <button onClick="newQuote()" type="button" class="quoteText btn btn-primary">Quote</button>
+    <button id="tweetButton" type="button" class="quoteText btn btn-primary">Tweet</button>
       </div>
-    <button type="button" class="newQuote btn btn-primary">Quote
-    </button>
-    <button type="button" class="newQuote btn btn-primary">Tweet
-    </button>
+    </div>
   </div>
 </main>
-
-</html>
