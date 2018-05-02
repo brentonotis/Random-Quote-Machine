@@ -1,21 +1,22 @@
-<!DOCTYPE html>
-<html>
-<head></head>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Skranji:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
 
 <main class="quoteApp">
   <div class="container text-center">
+    <h1>Bob's <font color="yellow">Random</font><font color="red"> Quote</font><font color="green"> Machine</font></h1>
     <div class="container" id="mainbox" style="padding-left:0px;padding-right:0px;height:600px; auto">
       <div class="container quote_box rows">
         <div class="rows">
-          <div id="quoteText" class="text-center quoteText"><h2>
-          One good thing about music, when it hits, you feel no pain.</h2>
-          </div>
+          <div id="quoteText" class="text-center quoteText">One good thing about music, when it hits, you feel no pain.</div>
           <div id="author" class="text-center"><h4>
           - Bob Marley</h4></div>
           </div>
-    <button onClick="newQuote()" type="button" class="quoteText btn btn-primary">Quote</button>
-    <button id="tweetButton" type="button" class="quoteText btn btn-primary">Tweet</button>
+    <button onClick="newQuote()" type="button" class="quoteText btn btn-primary">Quote <i class="fas fa-seedling"></i></button>
+    <button onClick="tweet()" id="tweetButton" type="button" class="quoteText btn btn-primary">Tweet <i class="fab fa-twitter"></i></button>
       </div>
     </div>
   </div>
+<p style="text-align: center; color: white" id="closingtext">Coded with <i class="fas fa-hand-peace"></i><i class="fas fa-heart"></i> and <i class="fas fa-hand-rock"></i> by <a href="https://www.linkedin.com/in/brentonotis/Brenton Otis" target="_blank">Brenton</a></p>
 </main>
