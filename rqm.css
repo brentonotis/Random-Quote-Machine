@@ -1,6 +1,18 @@
+h1 {
+  font-family: 'Skranji', cursive;
+  color: green;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h4 {
+  font-family: 'Skranji', cursive;
+}
+
 .quoteText {
   margin-top: 50px;
   margin-bottom: 50px;
+  font-family: 'Skranji', cursive;
 }
 
 .btn {
@@ -44,11 +56,15 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
   border-width: 1px;
   width: 90%;
-  border-radius: 0.8%;
+  border-radius: 25px;
   min-width: 200px;
   max-width:600px
 }
 
 .text-center {
   font-size: 1.4em;
+}
+
+#author {
+  font-family: 'Skranji', cursive;
 }
