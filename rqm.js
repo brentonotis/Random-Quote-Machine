@@ -15,7 +15,11 @@ const quote =[
 ]
 
 function newQuote() {
-  const randomNumber = Math.floor(Math.random() * (quote.length));
-  document.getElementById('quoteText').innerHTML = quote[randomNumber];
-  document.getElementById('tweetButton').href="https://twitter.com/intent/tweet/?text=" +  quotes[randomNumber];
+ var randomNumber = Math.floor(Math.random() * (quote.length));
+ document.getElementById('quoteText').innerHTML = quote[randomNumber];
+}
+ function tweet() {
+  var generatedQuote = document.getElementById("quoteText").innerHTML;
+  var tweetUrl = 'https://twitter.com/intent/tweet?via=brentonotis&text='+ encodeURIComponent(generatedQuote) +'&hashtags=BobMarley%2C100DaysOfCode%2CFreeCodeCamp';
+   window.open(tweetUrl);
 }
