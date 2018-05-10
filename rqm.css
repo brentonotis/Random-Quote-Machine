@@ -68,3 +68,15 @@ body {
 #author {
   font-family: 'Skranji', cursive;
 }
+
+#btn:focus {
+  outline-style: none;
+  color: white;
+  background-color: black;
+}
+
+#tweetButton:focus {
+  outline-style: none;
+  color: white;
+  background-color: black;
+}
